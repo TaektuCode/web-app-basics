@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: brown;
+  height: 18vh;
+  padding: 1rem;
+  margin: 0;
+}
+
+h1,
+p {
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.main {
+  height: 82vh;
+  width: 100%;
+}
+
+.number {
+  position: absolute;
+  background-color: transparent;
+  left: 50%;
+  top: 50%;
+  font-size: 11rem;
+}
+
+.bg-color-bar {
+  background-color: brown;
+  height: 100%;
+  width: 0%;
+}
